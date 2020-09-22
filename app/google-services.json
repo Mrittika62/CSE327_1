@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39280584772",
+    "firebase_url": "https://eatunlimited-3bec6.firebaseio.com",
+    "project_id": "eatunlimited-3bec6",
+    "storage_bucket": "eatunlimited-3bec6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39280584772:android:cb375403dc5d189c95f411",
+        "android_client_info": {
+          "package_name": "com.example.eatunlimited"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39280584772-clu2r0cffen93165p6jsc4f7ufjjt548.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eatunlimited",
+            "certificate_hash": "cf95161c733abe246085d392629979b237148aee"
+          }
+        },
+        {
+          "client_id": "39280584772-g1j770144stm38tpmsk5bsvd62lhbama.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0PKfDG_U2HgkQ8LQ6BWup2fUndXGdho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39280584772-g1j770144stm38tpmsk5bsvd62lhbama.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
