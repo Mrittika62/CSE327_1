@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavadocGenerationManager">
+<<<<<<< HEAD
     <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop" />
     <option name="LOCALE" value="en" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/.." />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+    <option name="OPTION_LINK_TO_JDK_DOCS" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">SearchF</string>
     <string name="get_started">Get Started</string>
     <string name="add_image">Add Image</string>
@@ -29,4 +30,7 @@
     <string name="textview3">TextView</string>
 
 
+=======
+    <string name="app_name">Rating</string>
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
 </resources>

@@ -18,9 +18,15 @@ android {
     }
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.eu"
         minSdkVersion 21
         targetSdkVersion 29
+=======
+        applicationId "com.example.rating"
+        minSdkVersion 23
+        targetSdkVersion 30
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
         versionCode 1
         versionName "1.0"
 
@@ -66,6 +72,7 @@ dependencies {
     // For control over item selection of both touch and mouse driven selection
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc02"
 
+<<<<<<< HEAD
     // FirebaseUI for Firebase Realtime Database
     implementation 'com.firebaseui:firebase-ui-database:6.2.1'
 
@@ -85,4 +92,6 @@ dependencies {
     implementation 'com.github.ivbaranov:materiallettericon:0.2.3'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.orhanobut:dialogplus:1.11@aar'
+=======
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
 }

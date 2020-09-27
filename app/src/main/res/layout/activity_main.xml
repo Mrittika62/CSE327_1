@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    android:padding="75dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
 
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/getStarted"
         android:layout_width="281dp"
@@ -39,3 +47,60 @@
         app:srcCompat="@drawable/eulogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Rate The Food"
+        android:textAppearance="?android:textAppearance"
+        android:textColor="@color/OffWhite"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        />
+
+
+    <RatingBar
+
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.Holo.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review..."
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/OffWhite"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/rateCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/darkgray"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/showRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+</LinearLayout>
+>>>>>>> 98ad075dbe7f455ea8deff972e1597b5d7b3b92e
